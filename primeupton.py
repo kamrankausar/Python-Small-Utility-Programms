@@ -13,8 +13,8 @@ def prime(n):
 def prime_list(n):
   pri_list = []
   for i in range(1,n+1):
-    val = prime(i)
-    pri_list.append(i)
+    if prime(i)
+      pri_list.append(i)
   return(pri_list)
 
   
