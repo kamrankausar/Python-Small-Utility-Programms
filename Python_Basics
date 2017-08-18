@@ -1,0 +1,5 @@
+#import dataframe as df
+#To see number of rows
+df.count()
+#To see number of col
+len(df.columns)
