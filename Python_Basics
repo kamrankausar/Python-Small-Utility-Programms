@@ -3,3 +3,11 @@
 df.count()
 #To see number of col
 len(df.columns)
+
+
+#Install python packages in ipython
+!pip install packages_name
+
+#Install python Packages from console
+pip install packages_name
+
