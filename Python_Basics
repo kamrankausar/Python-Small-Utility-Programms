@@ -1,5 +1,7 @@
 #import dataframe as df
-#To see number of rows
+#To see number of rows and cols
+print(dataset.shape)
+print(df.shape)
 df.count()
 #To see number of col
 len(df.columns)
@@ -27,7 +29,8 @@ Step1:- follow above 1 to 3 steps to install pip3 and packages.
 Step2:- go to tool menu of spider3 ->PYTHONPATH manager -> add path "/usr/local/lib/python3.5/dist-packages/sklearn"
 Step3:- Hit Update Module list in the tool menu
 Step4:- Restart Spyder
-
+# Spider Inspector Object
+See package rope is install
 
 
 
