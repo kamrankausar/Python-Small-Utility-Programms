@@ -4,12 +4,15 @@ df.count()
 #To see number of col
 len(df.columns)
 
-
 #Install python packages in ipython
 !pip install packages_name
 
 #Install python Packages from console
 pip install packages_name
+
+#Install packages in Anconda
+conda update scikit-learn
+conda install scikit-learn
 
 
 #Install packages in python3 in ubuntu16.04 which comes bundle with python2.7
