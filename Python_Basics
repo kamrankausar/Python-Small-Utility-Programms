@@ -11,3 +11,21 @@ len(df.columns)
 #Install python Packages from console
 pip install packages_name
 
+
+#Install packages in python3 in ubuntu16.04 which comes bundle with python2.7
+step1:- pip for python3
+sudo apt-get install python3-pip
+Step2:-use pip3 to intall packages(it install the packages in this dir "/usr/local/lib/python3.5/dist-packages")
+sudo pip3 install sklearn
+
+
+#Use packages in spider3 
+Step1:- follow above 1 to 3 steps to install pip3 and packages. 
+Step2:- go to tool menu of spider3 ->PYTHONPATH manager -> add path "/usr/local/lib/python3.5/dist-packages/sklearn"
+Step3:- Hit Update Module list in the tool menu
+Step4:- Restart Spyder
+
+
+
+
+
