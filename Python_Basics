@@ -32,6 +32,25 @@ Step4:- Restart Spyder
 # Spider Inspector Object
 See package rope is install
 
+# Python Functions details with Example
+First, since there's no typing, you don't have to set your return type.
+Second, you don't have to use a return statement at all actually.
+There's a special value called None that's returned.
+None is similar to null in Java and represents the absence of value. 
+Third, in Python, you can have default values for parameters.
+All of the optional parameters, the ones that you got default values for, need to come at the end of the function declaration.
+Sample 1:-
+def do_math(a, b, kind = 'add'):
+  if (kind=='add'):
+    return a+b
+  else:
+    return a-b
+
+do_math(1, 2)
+
+Sample 2:-
+
+
 
 
 
