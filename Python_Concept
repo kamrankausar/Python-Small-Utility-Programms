@@ -1,0 +1,33 @@
+# Count number of occurrence of particular word in csv file
+
+# Import Libraray
+import pandas as pd
+import numpy as np
+from collections import Counter, OrderedDict
+import operator 
+import os
+
+
+# Change the Directory 
+os.getcwd()
+os.chdir('/home/kamran/')
+# Loading the File
+dataset = pd.read_csv('filename')
+
+# Loading and cleaning the Campaign File
+clean_dataset = dataset.iloc[:, 3 : 5].values
+
+# Concept
+
+fin_cha = []
+for i in range(0,len(clean_dataset)):
+      # clean_dataset is 2d array
+      if (clean_dataset[i,1] == 'clicked'):
+        fin_cha.append(clean_dataset[i,0])
+# Counter is of class Counter it display occourence of each word
+cha = Counter(fin_cha)
+# It Sort the Dictonary according to key in descending order
+print(OrderedDict(sorted(cha.items(), key=lambda t: t[1], reverse=True)))
+print('\n')
+# Display most occurrence of word
+print(max(cha.iteritems(), key=operator.itemgetter(1))[0])
