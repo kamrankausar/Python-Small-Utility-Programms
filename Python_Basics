@@ -29,7 +29,8 @@ You can think of a DataFrame as a group of Series that share an index (in this c
 This makes it easy to select specific columns.
 Selecting a single column from the DataFrame will return a Series object.
 
-
+#  Using iloc, loc, & ix to select rows and columns in Pandas DataFrames
+hit this link- https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
 
 
 #Install python packages in ipython
