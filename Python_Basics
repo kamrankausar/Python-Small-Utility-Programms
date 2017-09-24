@@ -130,6 +130,27 @@ data.set_index('id', inplace=True)
 # select the row with 'id' = 487
 data.loc[487]
 
+# Split() 
+firstname = 'md kamran kausar'.split(' ')[0]
+o/p = md
+second_name = 'md kamran kausar'.split(' ')[1]
+o/p = kamran
+
+# Format()
+sales_recordes = {'price' : 3.24,
+                   'num_item' : 4,
+                   'person' : 'Chris'}
+sales_statement = '{} bought {} items(s) at a price of {} each for a total of {}'
+print(sales_statement.format(sales_record['person'],
+                             sales_record['num_items'],
+                             sales_record['price'],
+                             sales_record['num_items'] * sales_record['price']))
+                             
+o/p = Chris bought 4 item(s) at a price of 3.24 each for a total of 12.96
+# Unpacking in Python
+x = ("Md", 'kamran', 'kausar')
+f_name, m_name, l_name = x
+
 #Install python packages in ipython
 !pip install packages_name
 
