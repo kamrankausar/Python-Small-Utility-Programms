@@ -1,0 +1,50 @@
+
+
+#Install python packages in ipython
+!pip install packages_name
+
+#Install python Packages from console
+pip install packages_name
+
+#Install packages in Anconda
+conda update scikit-learn
+conda install scikit-learn
+
+
+#Install packages in python3 in ubuntu16.04 which comes bundle with python2.7
+step1:- pip for python3
+sudo apt-get install python3-pip
+Step2:-use pip3 to intall packages(it install the packages in this dir "/usr/local/lib/python3.5/dist-packages")
+sudo pip3 install sklearn
+
+
+#Use packages in spider3 
+Step1:- follow above 1 to 3 steps to install pip3 and packages. 
+Step2:- go to tool menu of spider3 ->PYTHONPATH manager -> add path "/usr/local/lib/python3.5/dist-packages/sklearn"
+Step3:- Hit Update Module list in the tool menu
+Step4:- Restart Spyder
+# Spider Inspector Object
+See package rope is install
+
+# Python Functions details with Example
+First, since there's no typing, you don't have to set your return type.
+Second, you don't have to use a return statement at all actually.
+There's a special value called None that's returned.
+None is similar to null in Java and represents the absence of value. 
+Third, in Python, you can have default values for parameters.
+All of the optional parameters, the ones that you got default values for, need to come at the end of the function declaration.
+Sample 1:-
+def do_math(a, b, kind = 'add'):
+  if (kind=='add'):
+    return a+b
+  else:
+    return a-b
+
+do_math(1, 2)
+
+Sample 2:-
+
+
+
+
+
