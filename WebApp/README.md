@@ -7,6 +7,8 @@ $ pip3/pip install flask
 # Step1 create a dir "webapp"
 # Step2 download all the contents of WebApp from github with folder
 #   How folders and scripts are arrange
+# Root folder is WebApp. It contains script "vsearch.py", "vsearch4web.py" folder "static" and "templates".
+# Folder "static" contains "hf.css and folder "templates" conatins "base.html", "entry.html" and "results.html"
 #  ........
 #   |webapp|  ----------> vsearch.py  ----- vsearch4web.py 
 #   .......       |
